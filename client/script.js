@@ -23,7 +23,8 @@ document.getElementById('submit').addEventListener('click', async function (even
 		address == ''
 	) {
 		alert('At least one field box is not entered');
-	} else {
+	} 
+    else {
 		// Send data to API
 		const inputData = {
 			num_bed: parseInt(num_bed),
